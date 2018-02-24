@@ -2,12 +2,15 @@ This is Hsrminer neoscrypt fork by Justaminer, with 0% devfee, working API, -r a
 
 https://bitcointalk.org/index.php?topic=2765610.0
 
-Latest version: 24.02.2018
+Latest version: 25.02.2018
 
 Features:
 
 ~    0% devfee
 
+     Version: 25.02.2018
+
+~    Issue with GTX 970, 980 and 980 Ti fixed, 2+ GPUs should work now.
 
      Version: 24.02.2018
 
