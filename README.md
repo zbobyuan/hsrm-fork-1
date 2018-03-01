@@ -1,16 +1,25 @@
-This is Hsrminer neoscrypt fork by Justaminer, with 0% devfee, working API, -r and many new options!
+This is Hsrminer neoscrypt fork by JustAMiner, with new GPUs support, working API, and many new usefull ccminer-style options!
+
+Fork contains 1 minute per hour devfee.
 
 https://bitcointalk.org/index.php?topic=2765610.0
 
-Latest version: 25.02.2018
+Latest version: 01.03.2018
 
 Features:
 
-~    0% devfee
+     Version: 01.03.2018
 
-     Version: 25.02.2018
+~  Added support of Titan XP, Titan V, Titan X (Pascal), GTX 950, GTX 960 - try and feedback please.
 
-~    Issue with GTX 970, 980 and 980 Ti fixed, 2+ GPUs should work now.
+~  Now you can actually change intensity with -i option for --benchmark (before that due to original hsrminer issue, even if you were specify -i N, default intensity was used
+   during benchmark). This let you tweak intensity and see results immediately with --benchmark. Use tools like GPU-Z or MSI Afterburner to watch gpu memory usage, 
+   high intesity also means high gpu memory usage. If you specify intensity below 8 - default values will be used. 
+   In general, you don't need to tweak intensity, especially for GPUs like 1060,1070,1080 as default values are already fine tuned but you can try to tweak it
+   for other GPU's.
+  
+~  Added 1 minute per hour devfee.
+
 
      Version: 24.02.2018
 
